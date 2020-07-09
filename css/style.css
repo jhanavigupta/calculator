@@ -65,13 +65,13 @@ body{
 }
 
 .box{
-   height: 60px;
+   height: 50px;
    width: auto;
    border-radius: 12px;
 }
 
 form{
-   margin: 50px 300px;
+   margin: 40px 300px;
 }
 
 input[type = "text"],
@@ -123,7 +123,6 @@ button{
 
 @media only screen and (min-width: 1501px) and (max-width: 1920px) {
    body{
-   text-align: center;
    font-size: 400%;
    background: linear-gradient(to right , #40e0d0, #ff8c00, #ff0080);
    font-family: 'Source Code Pro', monospace;
@@ -134,10 +133,11 @@ button{
    height: 100px;
    width: auto;
    border-radius: 12px;
+   text-align: center;
 }
 
 form{
-   margin: 70px 600px;
+   margin: 80px 400px;
 }
 
 input[type = "text"],
@@ -155,16 +155,15 @@ button,
 
 input[type = "text"],
 select{
-   /* margin: px 40px; */
    box-sizing: border-box;
 }
 
 input[type = "text"]{
-   font-size: 80px;
+   font-size: 70px;
 }
 
 input[type = "text"]:focus{
-   font-size: 80px;
+   font-size: 70px;
    display: inline-block;
    font-family: 'Source Code Pro', monospace;
    text-align: center;
@@ -174,23 +173,26 @@ input[type = "text"]:focus{
 }
 
 select{
-   font-size: 50px;
+   font-size: 40px;
+   padding: 0 40px;
 }
 
 select:focus{
    font-size: 20px;
+   padding: 0;
 }
 
 
 button{
-   font-size: 30px;
+   font-size: 40px;
+   padding: 0 40px;
 }
 
 
 #results{
-   margin: 20px 0;
+   margin: 10px 0;
    font-size: 80px;
-   padding: 0 80px;
+   padding: 0 200px;
 }
 }
 
